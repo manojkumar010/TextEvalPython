@@ -1,0 +1,36 @@
+Rouge Score & Bleu Score for Summary Comparison:
+
+Both Rouge and Bleu are popular metrics used to evaluate and compare the quality of summaries. 
+They do this by measuring how similar the generated summary is to a reference summary, typically written by a human.
+
+Rouge:
+
+Focuses on n-gram overlap. This means it counts how many sequences of consecutive words (n-grams) appear in both the generated and reference summaries.
+Available in various versions like ROUGE-1 (unigrams), ROUGE-2 (bigrams), and ROUGE-L (longest common subsequence).
+
+Strengths: Simple to understand, interpretable, widely used.
+
+Weaknesses: Ignores semantic equivalence and information gain. Might favor summaries that simply copy phrases from the reference text.
+Bleu:
+
+Similar to Rouge, but also penalizes summaries that are too short compared to the reference.
+Focuses on n-gram precision, meaning it rewards summaries that contain relevant n-grams from the reference text.
+
+Strengths: Encourages informative summaries, penalizes overly concise ones.
+
+Weaknesses: Similar to Rouge, can be sensitive to word order and may not capture semantic similarity.
+Using these scores for comparison:
+
+Compare individual scores (e.g., ROUGE-1, ROUGE-2, Bleu) to understand how well the summary captures different aspects of the reference text (word overlap, information, length).
+Use combined scores or their averages to get an overall sense of similarity.
+Remember, higher scores generally indicate better summaries, but interpret them with caution. Consider factors like fluency, coherence, and information loss that these scores might not capture.
+
+
+For Reference: 
+Rouge:
+
+ROUGE-1: Scores above 0.7 are generally considered good, while below 0.5 might indicate significant differences.
+ROUGE-2 and ROUGE-L: Scores above 0.5 are usually good, while below 0.3 might suggest major gaps in information or word overlap.
+
+Bleu:
+Scores above 0.8 are generally excellent, while below 0.4 might indicate significant information loss or lack of relevant content.
