@@ -40,9 +40,12 @@ Consider the context and purpose of your summaries when interpreting scores.
 Combine with other evaluation methods like human judgment for a more comprehensive assessment.
 
 ## Additional Information
-Learn more about ROUGE: http://www.aclweb.org/anthology/W04-1013: http://www.aclweb.org/anthology/W04-1013
-Learn more about BLEU: https://www.aclweb.org/anthology/P02-1040.pdf: https://www.aclweb.org/anthology/P02-1040.pdf
-Contributing
+Learn more about ROUGE: 
+http://www.aclweb.org/anthology/W04-1013 
+
+Learn more about BLEU: 
+https://www.aclweb.org/anthology/P02-1040.pdf
 
 
-### Feel free to contribute to this project by suggesting improvements or reporting issues!
+### Contributing
+Feel free to contribute to this project by suggesting improvements or reporting issues!
