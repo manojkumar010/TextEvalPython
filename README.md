@@ -4,12 +4,15 @@ Python Script for Text Evaluation Against Reference: Simplifying Assessment Proc
 
 This Python code automates the calculation of ROUGE and BLEU scores for summaries within an Excel file, making it easier to evaluate and compare their quality.
 
-Features
+## Features
 Simultaneous calculation of multiple scores: Calculates ROUGE-1, ROUGE-2, ROUGE-L, and BLEU scores for each summary.
+
 Direct integration with Excel: Works directly with Excel files for seamless integration into your workflow.
+
 Clear and concise output: Stores scores in separate columns within the same Excel file for easy analysis.
-Requirements
-Python 3.x
+
+## Requirements
+'Python 3.x'
 pandas library (pip install pandas)
 rouge library (pip install rouge)
 nltk library (pip install nltk and then download the 'punkt' package using nltk.download('punkt'))
